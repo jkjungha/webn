@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    #grid{
+      border:5px solid pink;
+      display:grid;
+      grid-template-columns: 150px 1fr;
+    }                       /*첫번째 부피 /나머지 공간*/
+    div{
+      border:5px solid gray;
+    }
+  </style>
+</head>
+<body>
+  <!--block level element가 필요하면 div
+  inline level element가 필요하면 span
+  -->
+  <div id="grid">
+    <div>NAVIGATION</div>
+    <div>ARTICLE</div>
+  </div>
+</body>
+</html>
